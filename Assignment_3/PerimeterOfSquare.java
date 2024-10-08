@@ -7,6 +7,6 @@ public class PerimeterOfSquare {
         System.out.print("Enter side of the square(cm): ");
         float s = sc.nextFloat();
         //Perimeter of square is 4*side
-        System.out.print("The perimeter of square is "+ 4*s+" cm" );
+        System.out.print("The perimeter of square is "+ 4*s+" cms" );
     }
 }
