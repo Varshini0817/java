@@ -1,3 +1,5 @@
+package Practise;
+
 import java.util.*;
 
 public class Switch {
@@ -15,7 +17,7 @@ public class Switch {
 //            default: System.out.print("Invalid fruit");
 //        }
 
-        //Advanced Switch statement
+        //Advanced Practise.Switch statement
 //        switch(fruit){
 //            case "Apple"  ->  System.out.print("Red fruit");
 //            case "Mango"  ->  System.out.print("Yellow fruit");

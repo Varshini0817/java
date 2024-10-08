@@ -1,4 +1,5 @@
-import javax.sound.midi.SysexMessage;
+package Practise;
+
 import java.util.*;
 public class CountOfAParticularDigit {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Practise;
+
 import java.util.*;
 
 public class IsPrime {
