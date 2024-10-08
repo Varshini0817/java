@@ -8,6 +8,6 @@ public class PerimeterOfParallelogram {
         float a = sc.nextFloat();
         float b = sc.nextFloat();
         //Perimeter of parallelogram is 2(a+b)
-        System.out.print("The perimeter of parallelogram is "+ 2*(a+b)+" cm");
+        System.out.print("The perimeter of parallelogram is "+ 2*(a+b)+" cms");
     }
 }
