@@ -7,6 +7,6 @@ public class PerimeterOfRhombus {
         System.out.print("Enter side of the rhombus:(cm) ");
         float s = sc.nextFloat();
         //Perimeter of rhombus is 4*side
-        System.out.print("The perimeter of rhombus is "+ 4*s+" cm" );
+        System.out.print("The perimeter of rhombus is "+ 4*s+" cms" );
     }
 }
