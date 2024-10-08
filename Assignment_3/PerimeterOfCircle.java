@@ -7,6 +7,6 @@ public class PerimeterOfCircle {
         System.out.print("Enter radius of a circle(cm): ");
         float r = sc.nextFloat();
         // Perimeter of a circle = 2*pi*r
-        System.out.print("Perimeter of a circle:"+ 2 * 3.14 * r+" cm");
+        System.out.print("Perimeter of a circle:"+ 2 * 3.14 * r+" cms");
     }
 }
