@@ -7,6 +7,6 @@ public class PerimeterOfEquilateralTriangle {
         System.out.print("Enter the side of the equilateral triangle(cm): ");
         float side = sc.nextFloat();
         //Perimeter of equilateral triangle is 3a
-        System.out.print("The perimeter of the equilateral triangle is : "+ 3*side+" cm");
+        System.out.print("The perimeter of the equilateral triangle is : "+ 3*side+" cms");
     }
 }
