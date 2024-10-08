@@ -8,6 +8,6 @@ public class PerimeterOfRectangle {
         float l = sc.nextFloat();
         float b = sc.nextFloat();
         //Perimeter of the rectangle is 2(l+b)
-        System.out.print("The perimeter of the rectangle is "+ 2*(l+b)+" cm");
+        System.out.print("The perimeter of the rectangle is "+ 2*(l+b)+" cms");
     }
 }
