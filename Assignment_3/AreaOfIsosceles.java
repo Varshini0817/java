@@ -4,6 +4,7 @@ import java.util.*;
 public class AreaOfIsosceles {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println("\tIsosceles Triangle ");
         System.out.print(("Enter base(cm): "));
         float b = sc.nextFloat();
         System.out.print(("Enter height(cm): "));
