@@ -9,6 +9,6 @@ public class VolumeOfSphere {
         float r = sc.nextFloat();
         //Volume of Sphere = (4/3)*3.14*r*r*r
         double vol = ((double) 4 /3)*3.14*r*r*r;
-        System.out.print("Volume of Sphere is "+ +vol+" cu.cm");
+        System.out.print("Volume of Sphere is "+ vol+" cu.cm");
     }
 }
