@@ -76,9 +76,5 @@
   where r is the radius of the base and h is the height.
 
 - Total Surface Area of Cube:
-  ```
   A = 6a²
-  ```
-  where `a` is the length of a side.
-
-This formatting will work correctly on GitHub Markdown. Just copy and paste this into your `.md` file.
+  where a is the length of a side.
