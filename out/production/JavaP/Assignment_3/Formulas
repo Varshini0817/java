@@ -1,0 +1,80 @@
+ 1. Area Formulas
+
+- Area of Circle:
+  A = πr²
+  where `r` is the radius.
+
+- Area of Triangle:
+  A = 1/2 × base × height
+
+- Area of Rectangle:
+  A = length × width
+
+- Area of Isosceles Triangle:
+  A = 1/2 × base × height
+
+- Area of Parallelogram:
+  A = base × height
+
+- Area of Rhombus:
+  A = 1/2 × d₁ × d₂
+  where d₁ and d₂ are the lengths of the diagonals.
+
+- Area of Equilateral Triangle:
+  A = (√3 / 4) × a²
+  where a is the length of a side.
+
+2. Perimeter Formulas
+
+- Perimeter of Circle (Circumference):
+  P = 2πr
+
+- Perimeter of Equilateral Triangle:
+  P = 3a
+  where a is the length of a side.
+
+- Perimeter of Parallelogram:
+  P = 2(a + b)
+  where a and b are the lengths of the adjacent sides.
+
+- Perimeter of Rectangle:
+  P = 2(length + width)
+
+- Perimeter of Square:
+  P = 4a
+  where a is the length of a side.
+
+- Perimeter of Rhombus:
+  P = 4a
+  where a is the length of a side.
+
+ 3. Volume Formulas
+
+- Volume of Cone:
+  V = 1/3 × πr²h
+  where r is the radius of the base and h is the height.
+
+- Volume of Prism:
+  V = Base Area × h
+  where h is the height of the prism.
+
+- Volume of Cylinder:
+  V = πr²h
+  where r is the radius of the base and h is the height.
+
+- Volume of Sphere:
+  V = 4/3 × πr³
+
+- Volume of Pyramid:
+  V = 1/3 × Base Area × h
+  where h is the height of the pyramid.
+
+4. Surface Area Formulas
+
+- Curved Surface Area of Cylinder:
+  A = 2πrh
+  where r is the radius of the base and h is the height.
+
+- Total Surface Area of Cube:
+  A = 6a²
+  where a is the length of a side.
