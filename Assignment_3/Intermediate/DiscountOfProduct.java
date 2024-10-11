@@ -9,7 +9,7 @@ public class DiscountOfProduct {
         float price = sc.nextFloat();
         System.out.print("Enter discount(%): ");
         float discount = sc.nextFloat();
-        //Discount = price * discount(%) -->  discount price = addprice - discount
+        //Discount = price * discount(%) -->  discount price = price - discount
         double dp = ( 1-(discount/100) )*price;
         System.out.print("The discount price is: "+dp);
 
