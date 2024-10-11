@@ -9,7 +9,7 @@ public class HCF {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.print("HCF of "+a+" "+b+" is: ");
-        if(a>b) a=b;
+        //if(a>b) a=b;
         int temp;
         /*                     b%a
             a = 33, b = 43      a    b   temp
