@@ -25,6 +25,6 @@ public class Ceiling {
     public static void main(String[] args) {
         int[] arr ={2,3,5,9,14,16,18};
         int target = 15;
-        System.out.print("Number is: "+ ceiling(arr, target));
+        System.out.print("Index is: "+ ceiling(arr, target));
     }
 }
