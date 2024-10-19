@@ -1,7 +1,7 @@
 package BinarySearch;
 
 public class Floor {
-    //ceiling in a bs  refers to the smallest number in the array that is >= target
+    //ceiling in a bs  refers to the greatest number in the array that is <= target
     static int floor(int[] arr, int target){
         int start = 0, end = arr.length-1;
         if(target<arr[start]) return -1;
