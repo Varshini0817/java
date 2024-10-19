@@ -15,7 +15,7 @@ public class Ceiling {
                 start = mid + 1;
             }
             else{
-                return mid;// returns index
+                return arr[mid];// returns index
             }
            // System.out.println(start+" "+end+" "+mid+" ");
         }
