@@ -7,10 +7,10 @@ public class PeakIndexInMountainArray {
         int start = 0, end = arr.length-1;
         while(start<end){
             int mid = start + (end - start)/2;
-            if(arr[mid] > arr[mid+1]){
+            if(arr[mid] > arr[mid+1]){ // descending part
                 end = mid;
             }
-            else {
+            else { //ascending part
                 start = mid + 1;
             }
         }//start and end point to the same index which is the peak in the mountain array
