@@ -89,6 +89,7 @@ public class RotatedArray {
                     return end -1;
                 }
                 end--;
+                //if left array is sorted , pivot on the right side
             } else if (arr[start]<arr[mid] || (arr[start] == arr[mid] && arr[mid] >arr[end])) {
                 start = mid +1;
             }
