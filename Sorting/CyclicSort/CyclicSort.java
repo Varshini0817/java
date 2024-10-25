@@ -6,9 +6,19 @@ public class CyclicSort {
     //Cyclic sort works on 1-N or 0-N by placing the values correctly at index-1 or index positions
     // by just swapping them until the condition is satisfied
     public static void cyclic(int[] arr){
-        for(int i=0; i< arr.length;i++){
-            while(arr[i] != arr[arr[i]-1]){
-                swap(arr, i, arr[i]-1);
+//        for(int i=0; i< arr.length;i++){
+//            while(arr[i] != arr[arr[i]-1]){
+//                swap(arr, i, arr[i]-1);
+//            }
+//        }
+        int i=0;
+        while(i<arr.length){
+            int correct = arr[i]-1;
+            if(arr[i] < arr.length && arr[i] != arr[correct]){
+                swap(arr, i, correct);
+            }
+            else {
+                i++;
             }
         }
     }
