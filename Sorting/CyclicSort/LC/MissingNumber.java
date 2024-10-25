@@ -1,6 +1,7 @@
 package Sorting.CyclicSort.LC;
 
 public class MissingNumber {
+    //9,6,4,2,3,5,7,0,1 return missing number from 0 to N array
     public static int missingNumber(int[] arr) {
         int i=0;
         while(i<arr.length){
