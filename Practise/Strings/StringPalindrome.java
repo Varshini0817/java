@@ -2,7 +2,11 @@ package Practise.Strings;
 
 public class StringPalindrome {
     public static void main(String[] args) {
-        String str = null;
+        String str = null;//true
+        String str1 = "abba"; //true
+        String str2 = "abcba"; //true
+        String str3 = "abda"; //false
+
         if(isPalindrome(str)){
             System.out.print("Palindrome!");
         }
