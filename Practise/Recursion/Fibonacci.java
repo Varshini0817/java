@@ -5,7 +5,7 @@ public class Fibonacci {
         System.out.println(fibonacci(4));
     }
 
-    //for a little larger numbers say 50, the program doesn't terminate as there are many repeated function calls
+    //For a little larger numbers say 50, the program doesn't terminate as there are many repeated function calls
     // and the space consumed is more, we can say recursion is inefficient in such cases
     // Time complexity of fibonacci is not 2^n but the golden ratio is 2^n
 
