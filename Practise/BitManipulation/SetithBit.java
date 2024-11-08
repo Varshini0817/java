@@ -2,6 +2,7 @@ package Practise.BitManipulation;
 
 public class SetithBit {
     // setting ith bit --> 0 to 1 or 1 as 1
+    //   num OR with (1 << i-1)-> mask
     public static void main(String[] args) {
         int num = 56;
         System.out.println(Integer.toBinaryString(num));
