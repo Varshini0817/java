@@ -14,10 +14,10 @@ public class PrimeNumsUptoN {
         }
         else if(num==2)
         {
-            System.out.print("Only one prime - 2");
+            System.out.print("Only one isPrime - 2");
         }
         else{
-            System.out.print("The prime numbers till "+num+ ": 2 ");
+            System.out.print("The isPrime numbers till "+num+ ": 2 ");
             for(int j= 3; j<=num; j++) {
                 boolean flag = true;
                 int i = 2;

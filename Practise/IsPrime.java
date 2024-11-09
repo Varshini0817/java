@@ -8,11 +8,11 @@ public class IsPrime {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         if(num == 1){
-            System.out.println("1 is neither prime nor composite");
+            System.out.println("1 is neither isPrime nor composite");
         }
         else if(num==2)
         {
-            System.out.println("2 is a prime number");
+            System.out.println("2 is a isPrime number");
         }
         else {
             int i=2;
@@ -25,7 +25,7 @@ public class IsPrime {
              i++;
             }
             if(flag){
-                System.out.print(num +" is a prime number");
+                System.out.print(num +" is a isPrime number");
             }
             else{
                 System.out.print(num + " is a composite number");
