@@ -9,6 +9,6 @@ public class UptoN {
         if( n== 1){
             return;
         }
-        fun(n-1); // no need to return as the function return type is integer
+        fun(n-1); // no need to return as the function return type is void
     }
 }
