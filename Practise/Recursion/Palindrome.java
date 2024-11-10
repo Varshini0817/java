@@ -1,7 +1,7 @@
 package Practise.Recursion;
 
 public class Palindrome {
-    //method 1
+
     public static int rev(int n){
         int digits = (int)(Math.log10(n))+1;// no. of digits
         return helper(n, digits);
