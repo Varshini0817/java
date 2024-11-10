@@ -1,6 +1,7 @@
 package Practise.Recursion.Arrays;
 
 import java.util.ArrayList;
+import java.util.OptionalInt;
 
 public class LinearSearch {
     public static void main(String[] args) {
@@ -13,6 +14,12 @@ public class LinearSearch {
         System.out.println(linearSearchIndBack(arr,t,arr.length-1));
         linearSearchAllInd(arr,t,0);
         System.out.println(list);
+        //return an array list
+        //findAllInd(arr,t, i,new ArrayList<>());
+        ArrayList<Integer> l = new ArrayList<>();
+        ArrayList<Integer> ans = findAllInd(arr, t, 0, l);
+        System.out.println(l);
+
     }
     //if to check it is present
     public static boolean linearSearch(int[] arr, int t,int i){
@@ -56,6 +63,16 @@ public class LinearSearch {
             list.add(i);
         }
         linearSearchAllInd(arr, t,i+1);
+    }
 
+    //to return an ArrayList
+    public static ArrayList<Integer> findAllInd(int[] arr, int t, int i, ArrayList<Integer> l){
+        if(i == arr.length){
+            return l;
+        }
+        if(arr[i] == t){
+            l.add(i);
+        }
+        return findAllInd(arr, t, i+1,l);
     }
 }
