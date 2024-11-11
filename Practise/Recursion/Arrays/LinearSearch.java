@@ -20,6 +20,9 @@ public class LinearSearch {
         ArrayList<Integer> ans = findAllInd(arr, t, 0, l);
         System.out.println(l);
 
+        ArrayList<Integer> res = listIndex(arr,t,0);
+        System.out.println(res);
+
     }
     //if to check it is present
     public static boolean linearSearch(int[] arr, int t,int i){
@@ -74,5 +77,20 @@ public class LinearSearch {
             l.add(i);
         }
         return findAllInd(arr, t, i+1,l);
+    }
+
+
+    // to declare an arraylist in the body of the function
+    public static ArrayList<Integer> listIndex(int[] arr, int t, int i){
+        ArrayList<Integer> li = new ArrayList<>();
+        if(i==arr.length){
+            return li;
+        }
+        if(arr[i]==t){
+            li.add(i);
+        }
+        ArrayList<Integer> ansFromBelowCalls = listIndex(arr, t,i+1);
+        li.addAll(ansFromBelowCalls);
+        return li;
     }
 }
