@@ -1,6 +1,7 @@
 package Practise.Recursion.Arrays;
 
 public class RotatedBinarySearch {
+//"BS in rotated sorted array
     public static void main(String[] args) {
         int[] arr1 = {1,2,3};
         int[] arr2 = {5,6,7,8,9,1,2,3};
