@@ -20,6 +20,9 @@ public class BubbleSort {
             }
             bubble(arr, r,c+1);
         }
+        //first break of the above
+        //c+1 is index out of bounds , so decrease the no. of elements to be swapped
+        // and start from the first element to swap as the last element is already the largest
         else {
             bubble(arr, r-1,0);
         }
