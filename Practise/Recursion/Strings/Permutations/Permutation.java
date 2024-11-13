@@ -1,4 +1,4 @@
-package Practise.Recursion.Permutations;
+package Practise.Recursion.Strings.Permutations;
 
 import java.util.ArrayList;
 
