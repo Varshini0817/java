@@ -1,4 +1,4 @@
-package Practise.Recursion.Strings.BackTracking;
+package Practise.Recursion.Strings.BackTracking.Maze;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Practise.Recursion.Strings.BackTracking;
+package Practise.Recursion.Strings.BackTracking.Maze;
 
 public class MazeObstacles {
     public static void main(String[] args) {
