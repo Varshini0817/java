@@ -1,5 +1,4 @@
 package Practise.Recursion.Patterns;
-
 public class RightTri {
     public static void main(String[] args) {
         pattern(4,0);

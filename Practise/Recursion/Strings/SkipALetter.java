@@ -7,7 +7,6 @@ public class SkipALetter {
         skip("",str);
         //if the return type is empty
         System.out.println(skipRT(str));
-
     }
     //return type is empty
     public static void skip(String p, String up){
