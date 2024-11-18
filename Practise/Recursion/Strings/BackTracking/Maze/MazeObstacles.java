@@ -23,6 +23,5 @@ public class MazeObstacles {
         if(c < maze[0].length-1){
             mazeObs(p+'R',maze,r,c+1);
         }
-
     }
 }
