@@ -1,4 +1,4 @@
-package Practise.Recursion.Strings.BackTracking.NQueens;
+package Practise.Recursion.Strings.BackTracking.Probs;
 
 public class NQueens {
     //not in the same row, same col, same diagonal
