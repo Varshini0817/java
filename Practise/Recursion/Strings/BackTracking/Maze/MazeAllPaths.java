@@ -13,7 +13,6 @@ public class MazeAllPaths {
         System.out.println();
         int[][] path = new int[board.length][board[0].length];
         mazeAllPathsPrint("",board, path, 0,0, 1);
-
     }
     public static void mazeAll(String p, boolean[][] maze, int r, int c){
         if( r== maze.length-1 && c == maze[0].length-1){
