@@ -86,6 +86,9 @@ public class Sudoku {
             }
         }
 
+//
+//        int startRow = row / 3 * 3;
+//        int startCol = col / 3 * 3;
         //check 3x3 grid if n = 9
         int sqrt = (int)(Math.sqrt(board.length));
 
