@@ -1,5 +1,4 @@
 package Practise.Patterns;
-
 public class Pattern35 {
     // rows               spaces
     //   1    1      1      6
