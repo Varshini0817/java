@@ -1,4 +1,5 @@
 package Practise.Recursion;
+
 public class BinarySearch {
     //Binary search using recursion
     // pass the elements start, end as arguments that decide the size of the array to search
