@@ -21,4 +21,5 @@ public class Pattern35 {
             System.out.println();
         }
     }
+    
 }
