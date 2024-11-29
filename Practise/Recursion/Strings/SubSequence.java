@@ -17,7 +17,6 @@ public class SubSequence {
         //up.substring is not changing up but creating a new object
         subseq(p,up.substring(1));//ignore the element
     }
-
     public static ArrayList<String> subseqRet(String p, String up){
         if(up.isEmpty()){
             ArrayList<String> res = new ArrayList<>();
