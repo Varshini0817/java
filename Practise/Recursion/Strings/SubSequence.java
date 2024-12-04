@@ -24,7 +24,6 @@ public class SubSequence {
             return res;
         }
         char ch = up.charAt(0);
-
         
         ArrayList<String> left = subseqRet(p+ch, up.substring(1));//add
         ArrayList<String> right= subseqRet(p,up.substring(1));//ignore
